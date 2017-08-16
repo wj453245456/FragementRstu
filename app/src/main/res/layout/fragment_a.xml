@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="wj.com.fragementrstu.AFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is A fragment" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textColor="#ff0000"
+        android:textSize="160dp"
+        />
+    <Button
+        android:id="@+id/A_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接受一条信息"/>
+</LinearLayout>
